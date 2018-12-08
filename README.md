@@ -19,10 +19,10 @@ more info about expected parameters and expected responses can be found at route
 # Get started
 To be able to run this project, you need the following
 
-Fork/Clone
-Install Node.js
-Install mySQL
-Install dependencies - npm install
-Make sure you have the database like in db.js or configure the connection to your desired connection.
-The Table name for the tasks is 'tasks' (The SQL statements are for tasks)
-Run the development server - npm start.
+1. Clone
+2. Install Node.js
+3. Install mySQL
+4. Install dependencies - npm install
+5. Make sure you have the database like in db.js or configure the connection to your desired connection.
+6. The Table name for the tasks is 'tasks' (id - INT, title - NAVCHAR, body - NAVCHAR, due_date - DATE, state - INT, is_deleted - TINYINT(1)) - id is the PK and its Auto-Incremented. all the columns are Not-Nullable.
+7. Run the development server - npm start.
