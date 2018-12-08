@@ -23,7 +23,7 @@ To be able to run this project, you need the following
 2. Install Node.js
 3. Install mySQL
 4. Install dependencies - npm install
-5. Make sure you have the database like in db.js or configure the connection to your desired connection.
+5. Make sure you have the database connection like in db.js or configure the connection to your desired connection.
 6. The Table name for the tasks is 'tasks' (id - INT, title - NAVCHAR, body - NAVCHAR, due_date - DATE, state - INT, is_deleted - TINYINT(1)) - id is the PK and its Auto-Incremented. all the columns are Not-Nullable.
 7. Run the development server - npm start.
 8. I used postman to test the requests.
