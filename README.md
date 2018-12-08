@@ -26,3 +26,4 @@ To be able to run this project, you need the following
 5. Make sure you have the database like in db.js or configure the connection to your desired connection.
 6. The Table name for the tasks is 'tasks' (id - INT, title - NAVCHAR, body - NAVCHAR, due_date - DATE, state - INT, is_deleted - TINYINT(1)) - id is the PK and its Auto-Incremented. all the columns are Not-Nullable.
 7. Run the development server - npm start.
+8. I used postman to test the requests.
